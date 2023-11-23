@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Custom Cursor</h1>
+      <p>Choose your cursor:</p>
+      <div class="select-container">
+        <select id="cursorOptions">
+          <option value="default">Default</option>
+          <option value="pointer">Pointer</option>
+          <option value="crosshair">Crosshair</option>
+          <option value="help">Help</option>
+          <option value="wait">Wait</option>
+          <option value="text">Text</option>
+          <option value="move">Move</option>
+          <option value="not-allowed">Not Allowed</option>
+          <option value="grab">Grab</option>
+          <option value="zoom-in">Zoom In</option>
+          <option value="zoom-out">Zoom Out</option>
+        </select>
+      </div>
+      <div class="button-container">
+        <button id="applyCursor">Apply Cursor</button>
+        <button id="resetCursor">Reset to Default</button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
